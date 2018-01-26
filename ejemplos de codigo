@@ -1,0 +1,63 @@
+#Codigo util
+
+#Ejemplo de función
+
+def ejemplo (parametro1):
+  print parametro1
+
+def suma (numero1, numero2):
+  resultado = int(numero1) + int(numero2)
+  return resultado
+  
+#Ejemplos de variables
+
+CadenaDeTexto = "Hola k ase"  #String
+NumeroEntero = 5              #Int
+NumeroDecimal = 2.5           #Float
+Tupla = (1,2,3)               #Tuple
+Listado = list("abc")    #list ("abc") == ["a","b","c"]
+
+
+#Ejemplos de funciónes
+
+2==2      #Cierto
+x=2, a=2, x==a #Cierto
+x=2, a=3, x!=a #Cierto
+x=2,x+2==4  #Cierto
+x=2,x-2==0  #Cierto
+x="a", x=="a" #Cierto
+x="a", x=="A" #Falso
+
+
+#Ejemplos de bucles
+
+for x in range(0,10):
+  print x
+                        #Output: 0,1,2,3,4,5,6,7,8,9
+                        
+x=1
+while x!=10:
+  print x
+  x+=1
+                         #Output: 1,2,3,4,5,6,7,8,9
+                      
+x=1
+if x==2:
+  print "primera parte"
+elif x==1:
+  print "segunda parte"
+else:
+  print "tercera parte"
+
+
+#Ejemplo de funciones utiles
+
+
+print ()
+raw_input()
+len()
+int()
+str()
+type()
+range()
+xrange()
